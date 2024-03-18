@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-cont {
+  height: 100vh;
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singer-cont {
+  height: 40vh;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 30px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+
+.singer-head {
+  margin: 0px;
+}
+
+.singer-para {
+  margin: 0px;
+}
+
+.songs-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+
+.input-cont {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  padding: 5px;
+}
+
+.input-el {
+  border-style: none;
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+  color: #ffffff;
+}
+
+.songs-list {
+  width: 80%;
+  height: 40vh;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.song-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-bottom: 10px;
+}
+
+.song-pic {
+  width: 15%;
+}
+
+.song-details-cont {
+  display: flex;
+  align-items: center;
+}
+
+.name-gen-cont {
+  font-family: 'roboto';
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.song-head {
+  margin: 0px;
+  font-size: 24px;
+}
+
+.gen-para {
+  color: #3b82f6;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.dur-del-cont {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.butt {
+  border-style: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.no-songs-cont {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: bold;
+}
